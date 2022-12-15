@@ -1,0 +1,159 @@
+@media (max-width: 1100px) {
+    .content-desctop {
+        display: none;
+    }
+}
+
+.features-line {
+    margin-top: 150px;
+    margin-bottom: 221px;
+}
+
+.features-content {
+    max-width: 1086px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.block {
+    display: flex;
+    position: relative;
+}
+
+.block-img-left {
+    position: absolute;
+    top: -144px;
+    left: 125px;
+}
+
+.block-img-right {
+    position: absolute;
+    bottom: -99px;
+    right: 75px;
+}
+
+#left-block {
+    margin-right: 86px;
+    min-width: 500px;
+}
+
+#right-block {
+    margin-left: 208px;
+}
+
+#left-text {
+    max-width: 378px;
+}
+
+.block + .block {
+    margin-top: 220px;
+}
+
+.rectangle {
+    width: 500px;
+    height: 220px;
+    background-color: #F5F5F5;
+}
+
+.content {
+    max-width: 390px;
+}
+
+/* @media (max-width: 1120px) {
+    .block {
+        display: inline-block;
+        position: relative;
+    }
+    .features-container {
+        text-align: center;
+    }
+    #left-block {
+        margin-right: 0;
+        min-width: 500px;
+    }
+    #right-block {
+        margin-left: 0;
+    }
+    .content {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+} */
+
+.block-title {
+    font-size: 24px;
+    line-height: 34px;    
+}
+
+.block-text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 23px;    
+    margin-bottom: 27px;
+}
+
+.block-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;    
+}
+
+
+
+
+@media (min-width: 1101px) {
+    .content-mobile {
+        display: none;
+    }
+}
+
+.features-line {
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+.features-content {
+    max-width: 1086px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.block-mobile {
+    display: block;
+    text-align: center;
+}
+
+.block-mobile div {
+    margin: 0 auto;
+}
+
+.block-mobile div + div {
+    margin-top: 30px;
+}
+
+.rectangle-mobile {
+    position: relative;
+    height: 400px;
+}
+
+.img-first {
+    position: absolute;
+    top: 50%px;
+    left: 50%px;
+    transform: translate(-50%, -25%);
+}
+
+.img-second {
+    position: absolute;
+    top: 50%px;
+    left: 50%px;
+    transform: translate(-50%, -20%);
+}
+
+.abr {
+    margin-bottom: 200px !important;
+}

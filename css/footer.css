@@ -1,0 +1,95 @@
+.footer {
+    background-color: #FBFBFB;
+}
+
+.footer-top {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-logo {
+    padding-top: 107px;
+    margin-bottom: 30px;
+}
+
+.top-text {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6C6C6C;
+}
+
+.top-contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 704px) {
+    .top-contact {
+        display: block;
+    }
+    .top-contact div + div {
+        margin-top: 30px;
+    }
+}
+
+.contact-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    /* identical to box height, or 177% */
+    
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #000000;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    text-align: center;
+    
+    color: #6C6C6C;    
+}
+
+.footer-bottom {
+    background-color: #F8F8F8;
+}
+
+.bottom-text {
+    margin-top: 33px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.text-gray {
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #6C6C6C;
+}

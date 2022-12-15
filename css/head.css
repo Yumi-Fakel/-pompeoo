@@ -1,0 +1,54 @@
+.head {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 708px;
+}
+
+.head-container {
+    position: relative;
+    padding-top: 191.5px;
+    max-height: 500px;
+}
+
+.head-content {
+    max-width: 576px;
+}
+
+.head-descr {
+    text-align: left;
+}
+
+.head-title {
+    font-size: 48px;
+}
+
+.head-text {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 14px;
+    
+}
+
+.head-button {
+    margin-top: 51px;
+}
+
+.head-img {
+    position: absolute;
+    width: 784px;
+    height: 445px;
+    left: 479px;
+    top: 33px;
+}
+
+@media (max-width: 702px) {
+    .head-img {
+        left: ;
+        top: ;
+    }
+}
+
+.head-img img {
+    padding-top: 94px;
+}

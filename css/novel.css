@@ -1,0 +1,53 @@
+.novel-bg {
+    background-image: url(../img/novel-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 471px;
+    
+}
+
+.novel-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.novel-content {
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 144px; */
+    padding-top: 121px;
+    width: 566px;
+    height: 230px;
+    padding-left: 24px;
+}
+
+.novel-descr {
+    text-align: left;
+}
+
+.novel-title {
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 7px;
+}
+
+.novel-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Libre Franklin';
+    width: 421px;
+    margin-top: 13px;
+}
+
+.novel-span {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+}
+
+.novel-button {
+    margin-top: 30px;
+}
